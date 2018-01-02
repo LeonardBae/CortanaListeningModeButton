@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="TestKeys.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestKeys"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="button" Content="Hey Cortana!" Background="DodgerBlue" FontSize="50" FontWeight="Bold" HorizontalAlignment="Center" Height="191" VerticalAlignment="Center" Width="355" RenderTransformOrigin="0.502,0.445" Click="button_Click"/>
+
+    </Grid>
+</Page>
